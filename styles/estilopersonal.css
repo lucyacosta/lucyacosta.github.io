@@ -1,0 +1,147 @@
+#contenedor {
+    width: 940px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background: rgb(199, 236, 151);
+    border-radius: 25px;
+}
+
+#contenido {
+    font-size: 20px;
+    color: fuchsia;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tit1 {
+    width: 500px;
+    margin: auto;
+    background: rgb(233, 241, 156);
+    border-radius: 25px;
+}
+
+#cuerpo1 {
+    margin: 15px;
+    width: 600px;
+    height: 200px;
+    background: rgb(114, 221, 185);
+    float: left;
+    border-radius: 15px;
+}
+
+#tit2 {
+    width: 500px;
+    margin: auto;
+    background: rgb(233, 241, 156);
+    border-radius: 25px;
+}
+
+#cuerpo2 {
+    margin: 15px;
+    width: 500px;
+    height: 550px;
+    background: rgb(114, 221, 185);
+    float: center;
+    border-radius: 15px;
+}
+
+#tit3 {
+    width: 500px;
+    margin: auto;
+    background: rgb(233, 241, 156);
+    border-radius: 25px;
+}
+
+#cuerpo3 {
+    margin: 10px;
+    width: 900px;
+    height: 80px;
+    background: rgb(114, 221, 185);
+    border-radius: 15px;
+}
+
+#todo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    width: 1150px;
+    height: 800px;
+    background: rgb(233, 243, 188);
+    border-radius: 50px;
+}
+
+body {
+    background: url(/images/fondo.jpg);
+    background-size: 100%;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #ccc;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+h3 {
+    color: rgb(57, 76, 189);
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p strong {
+    color: maroon;
+    font-size: 20px;
+}
+
+p em {
+    color: orangered;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.celeste {
+    color: rgb(24, 14, 5);
+    background-color: turquoise;
+    font-size: 60;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+.pie {
+    color: rgb(226, 28, 28);
+    font-size: 15px;
+    margin: 15px;
+}
+
+nav {
+    font-size: 20px;
+}
+
+a:link {
+    color: purple;
+}
+
+a:hover {
+    color: darksalmon;
+}
+
+a:visited {
+    color: forestgreen;
+}
