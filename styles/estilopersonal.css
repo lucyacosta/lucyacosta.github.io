@@ -132,6 +132,7 @@ p::first-letter {
 
 nav {
     font-size: 20px;
+    text-align: center;
 }
 
 a:link {
