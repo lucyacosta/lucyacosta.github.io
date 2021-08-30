@@ -12,36 +12,134 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/estilopersonal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Milonga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Bilbo&family=Milonga&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="tit1">
-        <header>
-            <h2 align="center"> Lugares que Conozco!!! </h2>
-        </header>
-    </div>
+    <div>
+        <div class="BarraS">
+            <ul>
+                <li>
+                    <li>
+                        <a href="https://www.facebook.com/lucyanali.amadoracosta/" target=" _blank "> <i class="fa fa-facebook ficono"></i> </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/qr/JGGVENEWVPW5F1" target=" _blanck "> <i class=" fa fa-whatsapp Whatsapp wicono "> </i > </a > </li >
+                     <li> <a  href = "https://www.instagram.com/luana_aco22/?hl=es-la" target =" _blanck " > <i  class =" fa iicono instagram fa-instagram " > </i > </a > </li >
+                    <li> <a  href = "https://www.linkedin.com/feed/" target =" _blank "> <i  class =" fa fa-linkedin linkedin liicono " > </i > </a > 
+                    </li >
+                </li>
+        </ul >
+    </div >
+</div>
 
-    <section id="cuerpo1">
-        <p>He viajado a muchos lugares pero los que más me gustaron son éstos: </p>
-        <ol>
-            <li>Machu Picchu</li>
-            <li>Cusco</li>
-            <li>Puno</li>
-            <li>Laguna San Nicolás- Cajamarca</li>
-            <li>Cajabamba</li>
-        </ol>
-        <p>Quiero que tu también los conozcas con estas fotos.</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-star-half"></i></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                        <div class="collapse navbar-collapse  d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item text-end">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <center>
+                                        <i class="bi bi-house-door-fill"></i></center>
+                                </li>
+                                <li class="nav-item text-end">
+                                    <a class="nav-link" href="Contact.html">Contáctame</a>
+                                    <center><i class="bi bi-person-circle"></i></center>
+                                </li>
+                        </div>
+        </div>
+        </nav>
+
+
+        <div id="tit1">
+            <header>
+                <h2 align="center"> Lugares Preferidos!!! </h2>
+            </header>
+        </div>
+
+        <section id="cuerpo1">
+            <div>
+                <p>He viajado a muchos lugares pero los que más me gustaron son éstos: </p>
+                <ol>
+                    <li>Machu Picchu</li>
+                    <li>Cusco</li>
+                    <li>Puno</li>
+                    <li>Laguna San Nicolás- Cajamarca</li>
+                    <li>Cajabamba</li>
+                </ol>
+                <p>Quiero que tu también los conozcas con estas fotos.</p>
+
+                <section id="cuerpo1-1">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/images/mpc.jpeg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>MACHU PICCHU</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/images/cusco.jpeg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>CUSCO</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/images/puno.jpeg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>PUNO</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/images/laguna.jpeg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>LAGUNA SAN NICOLÁS CAJAMARCA</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/images/cajabamba.jpeg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>CAJABAMBA</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            </section>
+    </div>
     </section>
 
-    <aside>
-        <center>
-            <img src="/images/mpc.jpeg" width="200" height="200" title="Machu Picchu" alt="imagen de Machu Picchu">
-            <img src="/images/cusco.jpeg" width="300" height="200" title="Ciudad de Cusco" alt="imagen de Cusco">
-            <img src="/images/puno.jpeg" width="200" height="200" title="Ciudad de Puno" alt="imagen de Puno">
-            <img src="/images/laguna.jpeg" width="300" height="200" title="Laguna San Nicolás-Namora" alt="imagen de laguna">
-            <img src="/images/cajabamba.jpeg" width="200 " height="200 " title="Provincia de Cajabamba " alt="imagen de Cajabamaba ">
-        </center>
-    </aside>
+
 
     <div id="tit2">
         <header>
@@ -86,24 +184,20 @@
     <div>
         <center>
             <h3>
+                <br/>
                 <EM><ins>ME DA GUSTO QUE HAYAS PODIDO CONOCER MIS INTERESES</ins> </EM>
             </h3>
         </center>
     </div>
 
-    <nav>
-        <center>
-            <a href="index.html ">Home</a>
-        </center>
-    </nav>
-
-
     <hr/>
 
     <footer class="pie">
-        <address>Copyright: Lucy Analí Amador Acosta 2021 </address>
+        <address> © Lucy Analí Amador Acosta 2021. Todos los derechos reservados</address>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 
 </html>
