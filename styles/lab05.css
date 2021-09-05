@@ -1,0 +1,243 @@
+body {
+    background: #e0ffff;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuadroInfo {
+    padding-left: 21%;
+}
+
+#ControlInput1 {
+    padding-left: 8px;
+    padding-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    background: #4682b4;
+    border-color: #4682b4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#ControlInput2 {
+    padding-left: 8px;
+    font-size: 18px;
+    border-color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput3 {
+    padding-left: 8px;
+    padding-right: 1px;
+    font-size: 18px;
+    background: #4682b4;
+    border-color: #4682b4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput4 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput5 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4682b4;
+    border-color: #4682b4;
+    margin-top: 5%;
+    color: white;
+}
+
+#ControlInput6 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput7 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4682b4;
+    border-color: #4682b4;
+    color: white;
+}
+
+#ControlInput8 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput9 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4682b4;
+    border-color: #4682b4;
+    color: white;
+}
+
+.mover2 {
+    margin-left: 23%;
+}
+
+#ControlInput10 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput11 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #d2691e;
+    border-color: #d2691e;
+    color: white;
+}
+
+#ControlInput12 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput13 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #d2691e;
+    border-color: #d2691e;
+    color: white;
+}
+
+#ControlInput14 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ControlInput15 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #d2691e;
+    border-color: #d2691e;
+    color: white;
+}
+
+#ControlInput16 {
+    padding-left: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    border-color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mover {
+    float: right;
+    margin-top: -125px;
+    margin-right: 345px;
+}
+
+#extraer {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    float: right;
+    margin-top: -90px;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    margin-right: 29%;
+}
+
+#colorear {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    float: right;
+    background: #d2691e;
+    border-color: #d2691e;
+    margin-top: -90px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 18%;
+}
