@@ -40,5 +40,55 @@
             }
             c += 1;
         }
-    }
+
+        //boton extraer
+        let bextraer = document.getElementById("extraer");
+        bextraer.addEventListener("click", extraer);
+
+        function extraer() {
+            const ApeNom = document.getElementById('ControlInput2');
+            let ApeNombres = ApeNom.value;
+            let NM = ApeNombres.split(/\s+/);
+            const paterno = document.getElementById('ControlInput6');
+            paterno.value = "";
+            paterno.value = NM[0];
+            const materno = document.getElementById('ControlInput8');
+            materno.value = "";
+            materno.value = NM[1];
+            const NomCompletos = document.getElementById('ControlInput10');
+            NomCompletos.value = "";
+            for (let i = 2; i < NM.length; i++) {
+                NomCompletos.value += NM[i] + " ";
+            }
+
+            //Sacamos la longitud del apellido
+
+            document.getElementById("ControlInput12").value = ("Tiene " + (paterno.value + materno.value).length + " letras")
+
+            //Sacamos la edad y el mes en letras
+            let fe = document.getElementById("ControlInput4").value;
+            let h = new Date();
+            let cumple = new Date(fe);
+            let edad = h.getFullYear() - cumple.getUTCFullYear();
+            let mes = (h.getMonth() + 1) - (cumple.getMonth() + 1);
+            console.log((h.getMonth() + 1) + "-" + (cumple.getMonth() + 1));
+            if (mes < 0) {
+                edad--;
+            } else
+            if (mes == 0) {
+                if (h.getDate() < cumple.getDate()) {
+                    edad--;
+                }
+            }
+
+            document.getElementById("ControlInput14").value = (+edad + " años");
+            let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+            ];
+            let day = new Date(cumple);
+            document.getElementById("ControlInput16").value = (meses[day.getMonth()]);
+
+        }
+    };
+
 })();
